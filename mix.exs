@@ -56,6 +56,10 @@ defmodule MembraneDemo.MixProject do
       {:membrane_element_tee, "~> 0.3.2"},
       {:membrane_element_fake, "~> 0.3"},
       {:membrane_aac_plugin, "~> 0.4.0"},
+      {:membrane_mp3_lame_plugin, "~> 0.5.0"},
+      {:ex_aws, "~> 2.1"},
+      {:ex_aws_s3, "~> 2.0"},
+      {:hackney, "~> 1.9"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"}
