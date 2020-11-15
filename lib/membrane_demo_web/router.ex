@@ -17,6 +17,7 @@ defmodule MembraneDemoWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/song", PageController, :audio
   end
 
   # Other scopes may use custom stacks.
